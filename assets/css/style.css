@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Lobster', cursive !important;
   color: #444444;
 }
 
@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Lobster', cursive !important;
 }
 
 /*--------------------------------------------------------------
@@ -456,6 +456,10 @@ h6 {
   font-size: 24px;
 }
 
+#hero h3 {
+  color: white;
+}
+
 #hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
@@ -484,7 +488,7 @@ h6 {
   transition: ease-in-out 0.3s;
 }
 
-#hero .icon-box h3 a:hover {
+#hero h3:hover {
   color: #ffc451;
 }
 
@@ -562,13 +566,15 @@ section {
 --------------------------------------------------------------*/
 .about {
   background-color: #475158;
-  color: white;
+  color: rgb(177, 170, 170);
+  font-size: 24px;
 }
 
 .about .content h3 {
   font-weight: 700;
   font-size: 28px;
   font-family: 'Press Start 2P', cursive;
+  color: white;
 }
 
 .about .content ul {
@@ -1437,7 +1443,7 @@ section {
 #footer .icon-cv {
   font-size: 20px;
   background: #292929;
-  color: #ffc451;
+  color: rgb(197, 196, 196);
   float: left;
   width: 44px;
   height: 44px;
@@ -1549,39 +1555,6 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   color: #ffc451;
-}
-
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4px;
-}
-
-#footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: 0;
-  right: -2px;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #ffc451;
-  color: #151515;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #ffcd6b;
 }
 
 #footer .copyright {
